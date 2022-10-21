@@ -1,12 +1,10 @@
-// create programatically because 16ish is a bit much for by hand
-
-
 const playerData = [
     {
         character: "Test met een hele lange naam",
         player: "Renske",
         image: "tihim_holosmith.jpg",
         base_profession: "engineer",
+        
     },
     {
         character: "Saybia Wolfspirit",
@@ -98,8 +96,7 @@ const playerData = [
         image: "todo.jpg",
         base_profession: "necromancer",
     }
-]
-
+];
 
 const colorMap = {
     "engineer": "#c75416",
@@ -115,7 +112,6 @@ const colorMap = {
 
 window.onload = function() {
     const slideTrack = document.getElementsByClassName("slide-track")[0];
-    console.log(playerData.length);
 
     playerData.forEach(function(p) {
         console.log(p);
