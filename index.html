@@ -46,6 +46,7 @@ h1 {
 
 
 .text-background {
+  transition: width 1s;
   position: absolute;
   width: 55px;
   left: 0;
@@ -100,7 +101,7 @@ body {
 .slide-track {
   width: calc(400px * 16);
   display: flex;
-  animation: scroll 16s linear infinite;
+  animation: scroll 32s linear infinite;
   justify-content: space-between;
 }
 
@@ -112,19 +113,22 @@ body {
   position: relative;
 }
 
-/* .slide:hover{
-  transform:scale(0.8);
-  background-image: none;
-} */
+.slide:hover {
+	 transform: scale(0.8);
+}
+ .slide:hover .text-background {
+	 width: 400px;
+}
+ 
 
-/* @keyframes scroll {
+@keyframes scroll {
     0% {
         transform: translateX(0px);
     }
     100% {
         transform: translateX(calc(-400px * 10));
     }
-} */
+}
 
  
 </style>

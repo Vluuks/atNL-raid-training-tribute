@@ -119,10 +119,12 @@ window.onload = function() {
 
     playerData.forEach(function(p) {
         console.log(p);
+
+        const color = colorMap[p.base_profession];
         slideTrack.innerHTML += `
             <div class="slide" style="background-image: url('players/${p.image}')">
-               <div class="text-background" style="background-color: ${colorMap[p.base_profession]};">
-                    <div class="text-container" style="text-shadow: 3px 2px ${colorMap[p.base_profession]};">
+               <div class="text-background" style="background-color: ${color};">
+                    <div class="text-container" style="text-shadow: 3px 2px ${color};">
                         <p class="character-name">${p.character}</p>
                         <p class="player-name">${p.player}</p>
                     </div>
