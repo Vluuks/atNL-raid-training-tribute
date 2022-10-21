@@ -1,0 +1,223 @@
+<html>
+    <link
+    href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide" id="test1">
+        <div class="text-container">
+            <p class="character-name">Tihim</p>
+            <p class="player-name">Renske</p>
+        </div>
+      </div>
+      <div class="slide bg-purple-500">
+        <div class="text-container">
+            <p class="character-name">Cedy B</p>
+            <p class="player-name">Cedy</p>
+        </div>
+      </div>
+      <div class="slide bg-blue-500">
+        <div class="text-container">
+            <p class="character-name">Gorrik Scruff</p>
+            <p class="player-name">Thomas</p>
+        </div>
+      </div>
+      <div class="slide bg-indigo-500">
+        <div class="text-container">
+            <p class="character-name">Saybia Wolfspirit</p>
+            <p class="player-name">Githa</p>
+        </div>
+      </div>
+      <div class="slide bg-pink-500">
+        <div class="text-container">
+            <p class="character-name">Mag Ik Mee</p>
+            <p class="player-name">Dennis</p>
+        </div>
+      </div>
+      <div class="slide bg-green-500">
+        <div class="text-container">
+            <p class="character-name">Amoryn</p>
+            <p class="player-name">Ayla</p>
+        </div>
+      </div>
+      <div class="slide bg-yellow-500">
+        <div class="text-container">
+            <p class="character-name">Kayleigh Snow</p>
+            <p class="player-name">Fran</p>
+        </div>
+      </div>
+      <div class="slide bg-red-500">
+        <div class="text-container">
+            <p class="character-name">Softreset</p>
+            <p class="player-name">Ole</p>
+        </div>
+      </div>
+      <div class="slide bg-gray-500 text-white">
+        <div class="text-container">
+            <p class="character-name">Plantanebula</p>
+            <p class="player-name">David</p>
+        </div>
+      </div>
+      <div class="slide bg-blue-800">
+        <div class="text-container">
+            <p class="character-name">Trust Me Imma Mani</p>
+            <p class="player-name">Mani</p>
+        </div>
+      </div>
+      <!-- same 9 slides doubled (duplicate) -->
+      <div class="slide bg-red-500">
+        <div class="text-container">
+            <p class="character-name">Feels Salad Man</p>
+            <p class="player-name">Kevin</p>
+        </div>
+      </div>
+      <div class="slide bg-purple-500">
+        <div class="text-container">
+            <p class="character-name">Siah Ranger</p>
+            <p class="player-name">Siah</p>
+        </div>
+      </div>
+      <div class="slide bg-blue-500">
+        <div class="text-container">
+            <p class="character-name">Grumpyinsom</p>
+            <p class="player-name">Sebastiaan</p>
+        </div>
+      </div>
+      <div class="slide bg-indigo-500">
+        <div class="text-container">
+            <p class="character-name">Seraph Phoenix</p>
+            <p class="player-name">Stefan</p>
+        </div>
+      </div>
+      <div class="slide bg-pink-500">
+        <div class="text-container">
+            <p class="character-name">Cephalid</p>
+            <p class="player-name">Mark</p>
+        </div>
+      </div>
+      <div class="slide bg-green-500">
+        <div class="text-container">
+            <p class="character-name">????</p>
+            <p class="player-name">Player</p>
+        </div>
+      </div>
+      <div class="slide bg-yellow-500">
+        <div class="text-container">
+            <p class="character-name">????</p>
+            <p class="player-name">Player</p>
+        </div>
+      </div>
+      <div class="slide bg-red-500">
+        <div class="text-container">
+            <p class="character-name">????</p>
+            <p class="player-name">Player</p>
+        </div>
+      </div>
+      <div class="slide bg-gray-500 text-white">
+        <div class="text-container">
+            <p class="character-name">????</p>
+            <p class="player-name">Player</p>
+        </div>
+      </div>
+      <div class="slide bg-blue-800">
+        <div class="text-container">
+            <p class="character-name">????</p>
+            <p class="player-name">Player</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>Githa bedankt!</h1>
+</body>
+
+</html>
+
+<style>
+
+#test1 {
+    background-image: url("players/tihim_holosmith.jpg")
+}
+
+.text-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px black;
+    color: white;
+    max-width: 400px;
+    transform-origin: top left;
+    transform: rotate(270deg);
+    position: absolute;
+    padding: 15px;
+    bottom: -100;
+}
+
+.character-name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.player-name {
+    margin-top: -15px;
+    font-size: 25px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.slider {
+  height: 800px;
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slider::before{
+  left:0;
+  top:0;
+}
+
+.slider::after{
+  right:0;
+  top:0;
+  transform:rotateZ(180deg);
+}
+
+.slide-track {
+  width: calc(400px * 20);
+  display: flex;
+  animation: scroll 20s linear infinite;
+  justify-content: space-between;
+}
+
+.slide {
+  width: 400px;
+  height: 800px;
+
+  /* display: grid;
+  place-items: center; */
+  transition:0.5s;
+  cursor:pointer;
+  position: relative;
+}
+
+/* .slide:hover{
+  transform:scale(0.8)
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(calc(-400px * 10));
+    }
+} */
+
+ 
+</style>
