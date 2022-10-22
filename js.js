@@ -1,16 +1,15 @@
 const playerData = [
     {
-        character: "Test met een hele lange naam",
-        player: "Renske",
-        image: "tihim_holosmith.jpg",
-        base_profession: "engineer",
-        
-    },
-    {
         character: "Saybia Wolfspirit",
         player: "Githa",
-        image: "test_norn.jpg",
+        image: "todo.jpg",
         base_profession: "guardian",
+    },
+	{
+        character: "Gorrik Scruff",
+        player: "Thomas",
+        image: "gorrik_atnl.png",
+        base_profession: "engineer",
     },
     {
         character: "Plantanebula",
@@ -18,34 +17,34 @@ const playerData = [
         image: "todo.jpg",
         base_profession: "revenant",
     },
-    {
-        character: "Cedy B",
-        player: "Cedy",
-        image: "todo.jpg",
-        base_profession: "guardian",
-    },
-    {
-        character: "Gorrik Scruff",
-        player: "Thomas",
+	{
+        character: "Kayleigh Snow",
+        player: "Fran",
         image: "todo.jpg",
         base_profession: "engineer",
     },
     {
-        character: "Valor",
+        character: "Cedy B",
+        player: "Cedy",
+        image: "cedy_atnl.png",
+        base_profession: "guardian",
+    },
+	{
+        character: "Test met een hele lange naam",
+        player: "Test 1234 blablablsfabflsabasf",
+        image: "tihim_atnl.png",
+        base_profession: "engineer",
+    },    
+    {
+        character: "Válór",
         player: "Dennis",
-        image: "todo.jpg",
+        image: "valor_atnl.png",
         base_profession: "elementalist",
     },
     {
-        character: "Siah Ranger",
+        character: "Siah Jade",
         player: "Siah",
-        image: "todo.jpg",
-        base_profession: "ranger",
-    },
-    {
-        character: "Kayleigh Snow",
-        player: "Fran",
-        image: "todo.jpg",
+        image: "siah_atnl.png",
         base_profession: "engineer",
     },
     {
@@ -66,15 +65,15 @@ const playerData = [
         image: "todo.jpg",
         base_profession: "guardian",
     },
-    {
-        character: "Trust Me Imma Mani",
-        player: "Dennis2",
-        image: "todo.jpg",
+	    {
+        character: "Seraph Phoenix",
+        player: "Stefan",
+        image: "seraph_atnl.png",
         base_profession: "engineer",
     },
     {
         character: "Grumpyinsom",
-        player: "Mark",
+        player: "Sebastiaan",
         image: "todo.jpg",
         base_profession: "ranger",
     },
@@ -85,8 +84,8 @@ const playerData = [
         base_profession: "engineer",
     },
     {
-        character: "Seraph Phoenix",
-        player: "Stefan",
+        character: "Trust Me Imma Mani",
+        player: "Dennis2",
         image: "todo.jpg",
         base_profession: "engineer",
     },
