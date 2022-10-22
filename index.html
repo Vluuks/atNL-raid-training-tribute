@@ -8,11 +8,11 @@
 <body>
   <div class="slider">
     <div class="slide-track">
+		<div class="slide intro-slide"></div>
 		<div class="slide intro-slide">
 			<div class="text-container">
 				<p class="character-name">Githa super bedankt!</p>
 				<p class="player-name">Bedankt voor het organiseren van alle raidtrainingen! Een dikke 👍 van ons allemaal</p>
-			</div>
 			</div>
 		</div>
     </div>
@@ -24,6 +24,11 @@
 <style>
 
 body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #232323;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -93,9 +98,9 @@ body {
 }
 
 .slide-track {
-	width: calc(400px * 17);
+	width: calc(400px * 20);
 	display: flex;
-	animation: scroll 34s linear infinite;
+	animation: scroll 40s linear infinite;
 	justify-content: space-between;
 }
 
@@ -120,11 +125,12 @@ body {
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(calc(-400px * 10));
+        transform: translateX(calc(-400px * 16));
     }
 }
 
 .intro-slide {
+	pointer-events: none;
 	background-color: #232323;
 }
 </style>

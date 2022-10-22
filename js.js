@@ -14,13 +14,13 @@ const playerData = [
     {
         character: "Plantanebula",
         player: "David",
-        image: "todo.jpg",
+        image: "planta_nl.png",
         base_profession: "revenant",
     },
 	{
         character: "Kayleigh Snow",
         player: "Fran",
-        image: "todo.jpg",
+        image: "fran_nl.png",
         base_profession: "engineer",
     },
     {
@@ -73,20 +73,14 @@ const playerData = [
     },
     {
         character: "Grumpyinsom",
-        player: "Sebastiaan",
-        image: "todo.jpg",
+        player: "Patrick",
+        image: "grumpy_nl.png",
         base_profession: "ranger",
     },
     {
-        character: "Cephalid",
-        player: "Mark",
-        image: "todo.jpg",
-        base_profession: "engineer",
-    },
-    {
         character: "Trust Me Imma Mani",
-        player: "Dennis2",
-        image: "todo.jpg",
+        player: "Dennis",
+        image: "mani_nl.png",
         base_profession: "engineer",
     },
     {
@@ -94,7 +88,13 @@ const playerData = [
         player: "Dimitri",
         image: "todo.jpg",
         base_profession: "necromancer",
-    }
+    },
+	{
+        character: "Cephalid",
+        player: "Mark",
+        image: "todo.jpg",
+        base_profession: "engineer",
+    },
 ];
 
 const colorMap = {
@@ -127,5 +127,8 @@ window.onload = function() {
             </div>
         `
     });
+	
+	// prime frontend development
+	slideTrack.innerHTML += `<div class="slide intro-slide"></div> <div class="slide intro-slide"></div>`
 
 }
