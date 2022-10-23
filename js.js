@@ -2,7 +2,7 @@ const playerData = [
     {
         character: "Saybia Wolfspirit",
         player: "Githa",
-        image: "todo.jpg",
+        image: "githa_atnl.png",
         base_profession: "guardian",
     },
 	{
@@ -30,8 +30,8 @@ const playerData = [
         base_profession: "guardian",
     },
 	{
-        character: "Test met een hele lange naam",
-        player: "Test 1234 blablablsfabflsabasf",
+        character: "Tihim",
+        player: "Renske",
         image: "tihim_atnl.png",
         base_profession: "engineer",
     },    
