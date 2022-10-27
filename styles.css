@@ -84,13 +84,13 @@ h1 {
     position: relative;
 }
 
-.slide:hover {
+/* .slide:hover {
     transform: scale(0.8);
 }
 
 .slide:hover .text-background {
     width: 400px;
-}
+} */
 
 @keyframes scroll {
     0% {
