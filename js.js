@@ -84,10 +84,10 @@ const playerData = [
         base_profession: "engineer",
     },
     {
-        character: "Silly Dilli",
+        character: "Silly Dili",
         player: "Dimitri",
-        image: "todo.jpg",
-        base_profession: "necromancer",
+        image: "dilli_atnl.png",
+        base_profession: "guardian",
     },
 	{
         character: "Cephalid",
