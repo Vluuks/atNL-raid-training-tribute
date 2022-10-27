@@ -43,7 +43,7 @@ const playerData = [
     },
     {
         character: "Siah Jade",
-        player: "Siah",
+        player: "Susanne",
         image: "siah_atnl.png",
         base_profession: "engineer",
     },
