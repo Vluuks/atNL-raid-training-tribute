@@ -50,7 +50,7 @@ const playerData = [
     {
         character: "Feels Salad Man",
         player: "Kevin",
-        image: "kevin_atnl.png",
+        image: "todo.jpg",
         base_profession: "ranger",
     },
     {
@@ -61,8 +61,8 @@ const playerData = [
     },
     {
         character: "Amoryn",
-        player: "Mariët",
-        image: "amoryn_atnl.png",
+        player: "Ayla",
+        image: "todo.jpg",
         base_profession: "guardian",
     },
 	    {
@@ -90,9 +90,9 @@ const playerData = [
         base_profession: "guardian",
     },
 	{
-        character: "Cephalid",
+        character: "Cephalir",
         player: "Mark",
-        image: "todo.jpg",
+        image: "mark_atnl.png",
         base_profession: "engineer",
     },
 ];
